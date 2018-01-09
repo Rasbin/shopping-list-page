@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping To - Do List</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <form id="addItem">
+      <input type="text" placeholder="Enter your new item here." />
+      <input type="number" placeholder="Enter Quantity" />
+      <input type="button" value="ADD ITEM" />
+    </form>
+
+    <p>Shopping List to be done :</p>
+
+    <!-- To Do List Table -->
+    <table id="to-do-list">
+      <tr>
+        <th></th>
+        <th>Item Name</th>
+        <th>Quantity</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>Apple</td>
+        <td>2</td>
+        <td><span>X</span></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>Mango</td>
+        <td>3</td>
+        <td><span>X</span></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>Orange</td>
+        <td>5</td>
+        <td><span>X</span></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>Pine Apple</td>
+        <td>1</td>
+        <td><span>X</span></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>Grapes</td>
+        <td>1</td>
+        <td><span>X</span></td>
+      </tr>
+    </table>
+
+    <p>COMPLETED Shopping List :</p>
+
+<!-- Table list of DONE  -->
+    <table id="done-list">
+
+        <tr>
+          <th></th>
+          <th>Item Name</th>
+          <th>Quantity</th>
+          <th></th>
+        </tr>
+
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
