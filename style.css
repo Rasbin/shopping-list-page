@@ -45,7 +45,7 @@ table {
   width: 80%;
   margin: auto;
   text-align: center;
-  box-shadow: 1px 1px 30px 2px #aaaaaa;
+  box-shadow: 1px 1px 30px 2px #000;
 }
 
 table tr:nth-child(odd) {
