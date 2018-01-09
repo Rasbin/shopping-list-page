@@ -1,0 +1,88 @@
+/* Normalizing the initial margin and padding */
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  padding: 10px;
+  background-color: #5a7216;
+}
+
+form {
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+form input {
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p {
+    color: #000;
+    background-color: #5a8216;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+/* Styling the table */
+table {
+  
+  margin-top: 20px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  box-shadow: 1px 1px 30px 2px #aaaaaa;
+}
+
+table tr:nth-child(odd) {
+    background-color: #7da453;
+}
+
+table tr:nth-child(even) {
+    background-color: #5a9216;
+}
+
+
+table tr th {
+	background-color: green;
+}
+
+table tr:hover {
+	transform:scale(1.03,1.03);
+}
+
+table tr td, table tr th {
+  padding: 12px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+/* Giving red color to DELETE button X */
+span {
+  color: red;
+  text-decoration: none !important;
+}
+
+input[type="button"] {
+	background-color: green;
+	border: none;
+	box-shadow: 1px 1px 15px 2px #aaaaaa;
+}
+
+input[type="button"]:hover {
+	background-color:#5a9216;
+}
